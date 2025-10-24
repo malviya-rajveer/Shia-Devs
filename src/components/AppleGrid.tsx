@@ -233,7 +233,7 @@ const GridApple = () => {
             duration: 12,
             times: [0, 0.05, 0.95, 1],
             repeat: Infinity,
-            repeatDelay: 7,
+            repeatDelay: 4,
             repeatType: "loop",
           }}
           className="relative flex h-14 w-65 cursor-pointer flex-col items-center rounded-full bg-white text-black xl:h-14.5 xl:w-78"
@@ -282,7 +282,7 @@ const GridApple = () => {
             delay: 0.5,
             times: [0, 0.05, 0.95, 1],
             repeat: Infinity,
-            repeatDelay: 7,
+            repeatDelay: 4,
             repeatType: "loop",
           }}
           className="mt-1 h-18 w-48 cursor-pointer rounded-2xl bg-white/96 xl:h-21 xl:w-51"
@@ -304,7 +304,7 @@ const GridApple = () => {
             duration: 12,
             repeat: Infinity,
             times: [0, 0.05, 0.95, 1],
-            repeatDelay: 7,
+            repeatDelay: 4,
             delay: 1,
             repeatType: "loop",
           }}
@@ -343,10 +343,10 @@ const GridApple = () => {
           "absolute inset-0",
           "[background-size:16px_16px]",
           "[background-image:radial-gradient(#e879f9_1px,transparent_1px)] opacity-40",
-          "dark:[background-image:radial-gradient(oklch(45.2% 0.211 324.591)_1px,transparent_1px)]",
+          // "dark:[background-image:radial-gradient(oklch(45.2% 0.211 324.591)_1px,transparent_1px)]",
         )}
       ></div>
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black_100%)] dark:bg-black"></div>
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black_100%)]"></div>
     </div>
   );
 };
@@ -362,7 +362,7 @@ const CardBlury = () => {
         )}
       >
         <h1 className="font-sans text-3xl font-semibold text-neutral-100 md:text-4xl xl:text-4xl">
-          the{" "}
+          The{" "}
           <span className="bg-linear-[25deg,oklch(0.969_0.016_293.756)_30%,oklch(0.37_0.013_285.805)_80%] bg-clip-text text-transparent">
             Best
           </span>
@@ -376,11 +376,10 @@ const CardBlury = () => {
           "absolute inset-0",
           "[background-size:16px_16px]",
           "[background-image:radial-gradient(#e879f9_1px,transparent_1px)] opacity-50",
-          "dark:[background-image:radial-gradient(oklch(45.2% 0.211 324.591)_1px,transparent_1px)]",
+          // "dark:[background-image:radial-gradient(oklch(45.2% 0.211 324.591)_1px,transparent_1px)]",
         )}
       ></div>
-      <div className="absolute flex h-full w-full items-center justify-center [mask-image:radial-gradient(ellipse_at_top_right,black_55%,transparent_100%)] dark:bg-black"></div>
-      {/* <div className="absolute bottom-5 flex h-full w-full items-center justify-center [mask-image:radial-gradient(ellipse_at_right,black_40%,transparent_100%)] dark:bg-black/60"></div> */}
+      <div className="absolute flex h-full w-full items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_top_right,black_55%,transparent_100%)]"></div>
     </div>
   );
 };

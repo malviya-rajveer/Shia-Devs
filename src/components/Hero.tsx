@@ -50,7 +50,7 @@ export const Hero = () => {
 
         <div className="mt-5 flex items-center justify-center gap-5 lg:gap-8">
           <button className="inset-shadow-2xl cursor-pointer rounded-full bg-gradient-to-b from-white to-neutral-400 px-4 py-1.5 text-neutral-900 hover:from-neutral-100 hover:to-neutral-100 lg:px-6 lg:py-2.5">
-            Contect us
+            Contact us
           </button>
           <button className="font cursor-pointer rounded-full bg-gradient-to-b from-neutral-800 to-neutral-950 px-4 py-1.5 shadow-2xl hover:ring-1 hover:ring-neutral-600 lg:px-5 lg:py-2.5">
             Start building
@@ -68,9 +68,3 @@ export const Hero = () => {
     </div>
   );
 };
-
-// class="inline-flex items-center justify-center
-// text-sm font-medium ring-offset-fd-background transition-colors focus-visible:outline-none
-// focus-visible:ring-2 focus-visible:ring-fd-ring disabled:pointer-events-none disabled:opacity-50
-// bg-gradient-to-b from-fd-primary to-fd-primary/60 text-fd-primary-foreground
-// shadow-fd-background/20 hover:bg-fd-primary/90 h-11 px-6 rounded-full"
