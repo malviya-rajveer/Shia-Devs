@@ -92,6 +92,7 @@ export const CompaniesGrid = () => {
           })}
           <div className="hidden"></div>
         </div>
+        <div className="z-0 h-4.5 w-full bg-black"></div>
       </div>
     </div>
   );

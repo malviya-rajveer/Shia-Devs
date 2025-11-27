@@ -2,8 +2,8 @@ import { cn } from "@/lib/utils";
 
 export const Footer = () => {
   return (
-    <footer className="">
-      <div className="relative mt-40 grid h-[65vh] w-full grid-cols-6 sm:mt-0 sm:grid-cols-8">
+    <footer className="relative z-0 mt-40 sm:mt-4.5">
+      <div className="relative grid w-full grid-cols-6 pb-8 sm:mt-0 sm:grid-cols-8">
         <div className="hidden flex-col items-center justify-center sm:col-span-3 sm:flex xl:col-span-2">
           <div className="relative z-10 mb-20 flex gap-1.5 text-3xl text-neutral-200">
             <div className="relative bottom-1.5 flex scale-130 items-center stroke-neutral-200">
@@ -83,6 +83,7 @@ export const Footer = () => {
 
         <div className="absolute flex h-full w-full items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_top_right,black_55%,transparent_100%)]"></div>
       </div>
+      {/* <div className="h-10 w-full bg-red-200"></div> */}
     </footer>
   );
 };

@@ -180,7 +180,7 @@ export const StarLight = ({
                   ></stop>
                   <stop
                     offset="1"
-                    stopColor={path.color[1]}
+                    stopColor={path.color[0]}
                     stopOpacity="0"
                   ></stop>
                 </motion.linearGradient>
