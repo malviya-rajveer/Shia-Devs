@@ -40,7 +40,7 @@ export const Hero = () => {
         className="absolute z-30 flex flex-col"
       >
         <h1 className="mt-[27vh] bg-gradient-to-t from-neutral-50 to-neutral-400 bg-clip-text text-center text-[35px] tracking-tighter text-transparent sm:mt-[30vh] sm:text-[35px] md:mt-[35vh] md:text-[40px] xl:mt-[34vh] xl:pb-2 xl:text-5xl">
-          Crafting Elagent Websites
+          Crafting Elegant Websites
         </h1>
 
         <p className="mt-0 ml-15 w-55 text-center text-[13px] tracking-wide text-neutral-400 sm:mt-0 sm:ml-11 sm:w-69 sm:text-[15px] md:mt-0 md:ml-14 md:w-74 md:text-[16px] xl:mt-1.5 xl:ml-8 xl:w-md xl:text-[19px]">
